@@ -1,0 +1,38 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net10.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="all\**" />
+    <Compile Remove="无丝袜\**" />
+    <Compile Remove="无腿\**" />
+    <Compile Remove="白丝\**" />
+    <Compile Remove="黑丝\**" />
+    <EmbeddedResource Remove="all\**" />
+    <EmbeddedResource Remove="无丝袜\**" />
+    <EmbeddedResource Remove="无腿\**" />
+    <EmbeddedResource Remove="白丝\**" />
+    <EmbeddedResource Remove="黑丝\**" />
+    <None Remove="all\**" />
+    <None Remove="无丝袜\**" />
+    <None Remove="无腿\**" />
+    <None Remove="白丝\**" />
+    <None Remove="黑丝\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Update="list.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+
+</Project>

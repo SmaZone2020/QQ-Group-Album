@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36414.22 d17.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "群相册爬取", "群相册爬取.csproj", "{70A65C6D-1DDC-6E30-3C8A-7C4A365268CB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{70A65C6D-1DDC-6E30-3C8A-7C4A365268CB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{70A65C6D-1DDC-6E30-3C8A-7C4A365268CB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{70A65C6D-1DDC-6E30-3C8A-7C4A365268CB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{70A65C6D-1DDC-6E30-3C8A-7C4A365268CB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A7879AC0-5E9D-4C48-827D-A5CB8B1C980C}
+	EndGlobalSection
+EndGlobal
